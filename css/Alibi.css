@@ -1,0 +1,154 @@
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.carousel-item {
+  box-shadow: 0 0 50px rgba(0, 0, 0, 20);
+  height: 800px;
+}
+
+.carousel-inner {
+  box-shadow: 0 0 50px rgba(0, 0, 0, 20);
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.AManga {
+  background-color: rgb(84, 22, 144);
+  color: white;
+  text-align: center;
+  margin-top: -8px;
+  box-shadow: 10 10 10 10 rgba(0, 0, 0, 0.5);
+}
+
+.Header {
+  text-align: center;
+  background-color: rgb(84, 22, 144);
+  color: white;
+  font-size: 45px;
+}
+
+.Anime {
+  background-color: orange;
+}
+
+.AboutManga {
+  text-align: center;
+  background-color: rgb(84, 22, 144);
+  color: white;
+}
+
+.Todo {
+  float: right;
+  margin-top: -170px;
+  margin-right: -80px;
+}
+
+.Shonen {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.Eyes {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  transition: transform .2s;
+}
+
+.Eyes:hover {
+  transform: scale(1.5);
+}
+
+.Seinen {
+  text-align: center;
+  color: black;
+  background-color: orange;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 20);
+}
+
+.Header1 {
+  margin-left: 15px;
+}
+
+.textSeinen {
+  margin-left: 15px;
+}
+
+.QuoteBer {
+  margin-top: -800px;
+  margin-left: 45px;
+}
+
+.BerserkWithGriffith {
+  margin-top: -15px;
+}
+
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+  margin-top: 700px;
+}
+
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+q {
+  font-style: italic;
+}
+
+.author {
+  color: cornflowerblue;
+}
